@@ -14,7 +14,12 @@
   },
   "languages": [
     { "name": "Indonesian", "level": "Native" },
-    { "name": "English", "level": "Professional Working" }
+    {
+      "name": "English",
+      "level": "Intermediate",
+      "test": "TOEFL ITP",
+      "score": "477"
+    }
   ],
   "awards": [
     "Best Paper Award - Academic Conference",

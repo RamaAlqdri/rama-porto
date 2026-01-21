@@ -44,19 +44,36 @@ export function EducationSection({
             <span>{content.languagesTagline}</span>
           </div>
           <div className="mt-4 space-y-3">
-            {content.languages.map((lang) => (
-              <div
-                key={lang.name}
-                className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-2"
-              >
-                <span className="text-sm font-semibold text-white">
-                  {lang.name}
-                </span>
-                <span className="text-xs uppercase tracking-[0.2em] text-white/60">
-                  {lang.level}
-                </span>
-              </div>
-            ))}
+            {content.languages.map((lang) => {
+              const toeflInfo = lang.test
+                ? lang.score
+                  ? `${lang.test}: ${lang.score}`
+                  : lang.test
+                : lang.score
+                  ? `Score: ${lang.score}`
+                  : null;
+
+              return (
+                <div
+                  key={lang.name}
+                  className="flex items-start justify-between gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-2"
+                >
+                  <div>
+                    <span className="text-sm font-semibold text-white">
+                      {lang.name}
+                    </span>
+                    {toeflInfo ? (
+                      <p className="mt-1 text-[0.65rem] uppercase tracking-[0.2em] text-white/50">
+                        {toeflInfo}
+                      </p>
+                    ) : null}
+                  </div>
+                  <span className="text-xs uppercase tracking-[0.2em] text-white/60">
+                    {lang.level}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
 

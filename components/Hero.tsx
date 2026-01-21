@@ -33,7 +33,7 @@ export function Hero({ content }: HeroProps) {
           <br />
           {role}
         </h1>
-        <p className="home__description max-w-xl text-sm text-white/70 sm:text-base">
+        <p className="home__description max-w-xl text-sm text-gradient sm:text-base">
           {description}
         </p>
         <div className="mt-8 flex flex-wrap gap-4">

@@ -4,7 +4,7 @@
   "infoPanel": {
     "title": "Contact Information",
     "description": "Let's build something impactful together. Reach out through any channel below.",
-    "badge": "Get in touch"
+    "badge": ""
   },
   "cards": [
     {
@@ -52,7 +52,7 @@
   "formPanel": {
     "title": "Start a Project",
     "description": "Share a brief about your product, goals, and timeline.",
-    "badge": "Form",
+    "badge": "",
     "fields": {
       "nameLabel": "Name",
       "namePlaceholder": "Your name",

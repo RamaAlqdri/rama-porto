@@ -118,6 +118,8 @@ export type Education = {
 export type LanguageItem = {
   name: string;
   level: string;
+  test?: string;
+  score?: string;
 };
 
 export type EducationContent = {
