@@ -27,7 +27,7 @@ export function SkillsSection({ techStack }: SkillsSectionProps) {
               <i className="bx bxl-typescript skills__icon text-2xl text-white"></i>
               <span className="skills__name">TYPESCRIPT</span>
             </div>
-            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[65%] rounded-lg bg-accent -z-10"></div>
+            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[65%] rounded-lg bg-gradient-to-r from-accent via-accentPurple to-accentPink -z-10"></div>
             <div>
               <span className="skills__percentage">65%</span>
             </div>
@@ -37,7 +37,7 @@ export function SkillsSection({ techStack }: SkillsSectionProps) {
               <i className="bx bxl-java skills__icon text-2xl text-white"></i>
               <span className="skills__name">JAVA</span>
             </div>
-            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[75%] rounded-lg bg-accent -z-10"></div>
+            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[75%] rounded-lg bg-gradient-to-r from-accent via-accentPurple to-accentPink -z-10"></div>
             <div>
               <span className="skills__percentage">75%</span>
             </div>
@@ -47,7 +47,7 @@ export function SkillsSection({ techStack }: SkillsSectionProps) {
               <i className="bx bxl-flutter skills__icon text-2xl text-white"></i>
               <span className="skills__name">FLUTTER</span>
             </div>
-            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[15%] rounded-lg bg-accent -z-10"></div>
+            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[15%] rounded-lg bg-gradient-to-r from-accent via-accentPurple to-accentPink -z-10"></div>
             <div>
               <span className="skills__percentage">15%</span>
             </div>
@@ -57,7 +57,7 @@ export function SkillsSection({ techStack }: SkillsSectionProps) {
               <i className="bx bxs-paint skills__icon text-2xl text-white"></i>
               <span className="skills__name">UI</span>
             </div>
-            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[85%] rounded-lg bg-accent -z-10"></div>
+            <div className="skills__bar absolute bottom-0 left-0 h-1 w-[85%] rounded-lg bg-gradient-to-r from-accent via-accentPurple to-accentPink -z-10"></div>
             <div>
               <span className="skills__percentage">85%</span>
             </div>

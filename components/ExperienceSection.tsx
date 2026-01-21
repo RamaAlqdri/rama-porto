@@ -31,7 +31,7 @@ export function ExperienceSection({ experienceItems }: ExperienceSectionProps) {
             <ul className="mt-4 space-y-2 text-sm text-white/70">
               {item.highlights.map((point) => (
                 <li key={point} className="flex gap-2">
-                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"></span>
+                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-gradient-to-r from-accent via-accentPurple to-accentPink"></span>
                   <span>{point}</span>
                 </li>
               ))}

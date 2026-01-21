@@ -9,7 +9,7 @@ type ContactSectionProps = {
 const sectionPadding = "pt-12 pb-8 md:pt-16 md:pb-12";
 
 const inputClassName =
-  "contact__input w-full rounded-lg border-[1.5px] border-input bg-input p-4 text-[0.938rem] font-semibold text-white outline-none transition-colors duration-300 focus:border-accent focus:ring-1 focus:ring-accent/40";
+  "contact__input w-full rounded-lg border border-white/10 bg-input/90 p-4 text-[0.938rem] font-semibold text-white outline-none transition-colors duration-300 focus:border-accentPink focus:ring-1 focus:ring-accent/40";
 
 export function ContactSection({ contactCards, cvUrl }: ContactSectionProps) {
   return (
@@ -54,7 +54,7 @@ export function ContactSection({ contactCards, cvUrl }: ContactSectionProps) {
                       {item.href ? (
                         <a
                           href={item.href}
-                          className="text-sm text-white transition-colors duration-300 hover:text-accent"
+                          className="text-sm text-white transition-colors duration-300 hover:text-accentPink"
                         >
                           {item.value}
                         </a>
@@ -78,7 +78,7 @@ export function ContactSection({ contactCards, cvUrl }: ContactSectionProps) {
             </div>
             <a
               href={cvUrl}
-              className="mt-4 inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white transition-shadow duration-300 hover:shadow-button sm:mt-0"
+              className="mt-4 inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-accent via-accentPurple to-accentPink px-4 py-2 text-sm font-semibold text-white shadow-button transition-transform duration-300 hover:-translate-y-0.5 sm:mt-0"
               download
             >
               <i className="bx bx-download"></i>
@@ -195,7 +195,7 @@ export function ContactSection({ contactCards, cvUrl }: ContactSectionProps) {
               </p>
               <button
                 type="button"
-                className="contact__button inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-white transition-shadow duration-300 hover:shadow-button"
+                className="contact__button inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-accent via-accentPurple to-accentPink px-6 py-3 text-sm font-semibold text-white shadow-button transition-transform duration-300 hover:-translate-y-0.5"
               >
                 Send Message
                 <i className="bx bx-send text-base"></i>

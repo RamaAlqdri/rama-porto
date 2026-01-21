@@ -69,7 +69,7 @@ export function EducationSection({
           <ul className="mt-4 space-y-3 text-sm text-white/70">
             {awards.map((award) => (
               <li key={award} className="flex gap-2">
-                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"></span>
+                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-gradient-to-r from-accent via-accentPurple to-accentPink"></span>
                 <span>{award}</span>
               </li>
             ))}

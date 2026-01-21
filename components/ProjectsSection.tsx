@@ -48,7 +48,7 @@ export function ProjectsSection({ projectItems }: ProjectsSectionProps) {
               <ul className="space-y-2 text-sm text-white/70">
                 {project.highlights.map((point) => (
                   <li key={point} className="flex gap-2">
-                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-accent"></span>
+                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-gradient-to-r from-accent via-accentPurple to-accentPink"></span>
                     <span>{point}</span>
                   </li>
                 ))}
@@ -65,7 +65,7 @@ export function ProjectsSection({ projectItems }: ProjectsSectionProps) {
               </div>
               <a
                 href={project.href}
-                className="inline-flex items-center gap-2 text-sm font-semibold text-accent transition-colors duration-300 hover:text-white"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-accentPink transition-colors duration-300 hover:text-white"
               >
                 View project
                 <i className="bx bx-right-arrow-alt text-lg"></i>

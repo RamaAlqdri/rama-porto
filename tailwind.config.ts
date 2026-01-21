@@ -12,18 +12,20 @@ const config: Config = {
     },
     extend: {
       colors: {
-        base: "#1a1a29",
-        accent: "#7562e0",
-        text: "#f5f5f5",
-        input: "#292c3e"
+        base: "#0b0b12",
+        accent: "#8D51FF",
+        accentPurple: "#C02AF1",
+        accentPink: "#FF7DDA",
+        text: "#f6f2ff",
+        input: "#1a1326"
       },
       fontFamily: {
         poppins: ["var(--font-poppins)", "sans-serif"]
       },
       boxShadow: {
-        nav: "0 1px 4px rgba(146, 161, 176, 0.15)",
-        card: "0px 4px 25px rgba(14, 36, 49, 0.15)",
-        button: "0px 10px 36px rgba(0, 0, 0, 0.15)"
+        nav: "0 12px 30px rgba(11, 6, 20, 0.55)",
+        card: "0 20px 45px rgba(5, 2, 14, 0.55)",
+        button: "0 18px 38px rgba(141, 81, 255, 0.35)"
       }
     }
   },

@@ -24,11 +24,84 @@
 
 @layer utilities {
   .glass {
-    @apply border border-white/10 bg-white/5 backdrop-blur-xl;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(
+      135deg,
+      rgba(141, 81, 255, 0.12),
+      rgba(12, 8, 20, 0.72)
+    );
+    backdrop-filter: blur(18px);
   }
 
   .glass-strong {
-    @apply border border-white/15 bg-white/10 backdrop-blur-2xl;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: linear-gradient(
+      135deg,
+      rgba(141, 81, 255, 0.2),
+      rgba(12, 8, 20, 0.78)
+    );
+    backdrop-filter: blur(26px);
+  }
+
+  .text-gradient {
+    background: linear-gradient(120deg, #8d51ff, #c02af1, #ff7dda);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .background-gradient {
+    position: absolute;
+    inset: -70px 0 0 0;
+    z-index: -2;
+    background:
+      radial-gradient(
+        60% 60% at 15% 20%,
+        rgba(141, 81, 255, 0.35),
+        transparent 65%
+      ),
+      radial-gradient(
+        50% 50% at 80% 15%,
+        rgba(255, 125, 218, 0.25),
+        transparent 65%
+      ),
+      radial-gradient(
+        45% 45% at 70% 85%,
+        rgba(192, 42, 241, 0.22),
+        transparent 60%
+      ),
+      #08060d;
+  }
+
+  .parallax {
+    position: absolute;
+    left: -20%;
+    width: 140%;
+    font-size: clamp(120px, 28vw, 560px);
+    font-weight: 700;
+    line-height: 0.85;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: rgba(141, 81, 255, 0.28);
+    opacity: 0.2;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .parallax--primary {
+    top: 8%;
+  }
+
+  .parallax--secondary {
+    top: 45%;
+    opacity: 0.12;
+  }
+
+  .parallax__scroller {
+    display: inline-flex;
+    gap: 6rem;
+    will-change: transform;
   }
 }
 
@@ -37,14 +110,25 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #12121d;
+  background: #0a0811;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #7562e0, #9a8cff);
+  background: linear-gradient(180deg, #8d51ff, #ff7dda);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #8572f0, #a998ff);
+  background: linear-gradient(180deg, #a16bff, #ff9ae6);
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    font-size: clamp(80px, 30vw, 240px);
+    opacity: 0.08;
+  }
+
+  .parallax--secondary {
+    top: 55%;
+  }
 }

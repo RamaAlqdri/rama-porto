@@ -120,7 +120,7 @@ export default function HomePage() {
         onNavigate={() => setMenuOpen(false)}
       />
 
-      <main className="l-main relative overflow-hidden">
+      <main className="l-main relative z-10 overflow-hidden">
         <BackgroundGlow />
 
         <div className="relative">
