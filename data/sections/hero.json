@@ -1,0 +1,39 @@
+{
+  "badge": "Open for collaborations",
+  "titlePrefix": "Hello, I'm",
+  "name": "Ramadhani Al-Qadri",
+  "role": "Fullstack Developer",
+  "description": "Fullstack Developer with experience building digital solutions in healthtech, mobility, agriculture, and education.",
+  "primaryCta": {
+    "label": "Download CV",
+    "icon": "bx bx-download",
+    "href": "/cv/ramadhani-al-qadri-cv.pdf",
+    "download": true
+  },
+  "secondaryCta": {
+    "label": "Let's Talk",
+    "icon": "bx bx-send",
+    "href": "#contact"
+  },
+  "socials": [
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/rama.alqd/",
+      "icon": "bx bxl-instagram"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/RamaAlqdri",
+      "icon": "bx bxl-github"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/ramadhani-al-qadri-660532154/",
+      "icon": "bx bxl-linkedin"
+    }
+  ],
+  "image": {
+    "src": "/image/profile.png",
+    "alt": "Portrait of Ramadhani Al-Qadri"
+  }
+}

@@ -1,25 +1,25 @@
 import Image from "next/image";
 
-import type { ProjectItem } from "../data/portfolio";
+import type { ProjectsContent } from "../data/portfolio";
 import { SectionHeading } from "./SectionHeading";
 
 type ProjectsSectionProps = {
-  projectItems: ProjectItem[];
+  content: ProjectsContent;
 };
 
 const sectionPadding = "pt-12 pb-8 md:pt-16 md:pb-12";
 
-export function ProjectsSection({ projectItems }: ProjectsSectionProps) {
+export function ProjectsSection({ content }: ProjectsSectionProps) {
   return (
     <section className={`work ${sectionPadding}`} id="work">
       <SectionHeading
-        title="Project"
-        description="Featured projects. Real-world applications across healthtech, mobility, agriculture, and mobile platforms."
+        title={content.title}
+        description={content.description}
         descriptionClassName="work__intro"
       />
 
       <div className="work__container mx-4 grid max-w-7xl gap-8 md:grid-cols-2 xl:grid-cols-3 lg:mx-auto">
-        {projectItems.map((project) => (
+        {content.items.map((project) => (
           <div
             key={project.title}
             className="project__card glass-strong group overflow-hidden rounded-2xl transition-transform duration-300 hover:-translate-y-1"
@@ -67,7 +67,7 @@ export function ProjectsSection({ projectItems }: ProjectsSectionProps) {
                 href={project.href}
                 className="inline-flex items-center gap-2 text-sm font-semibold text-accentPink transition-colors duration-300 hover:text-white"
               >
-                View project
+                {content.viewLabel}
                 <i className="bx bx-right-arrow-alt text-lg"></i>
               </a>
             </div>

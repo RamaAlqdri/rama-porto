@@ -1,22 +1,22 @@
-import type { ExperienceItem } from "../data/portfolio";
+import type { ExperienceContent } from "../data/portfolio";
 import { SectionHeading } from "./SectionHeading";
 
 type ExperienceSectionProps = {
-  experienceItems: ExperienceItem[];
+  content: ExperienceContent;
 };
 
 const sectionPadding = "pt-12 pb-8 md:pt-16 md:pb-12";
 
-export function ExperienceSection({ experienceItems }: ExperienceSectionProps) {
+export function ExperienceSection({ content }: ExperienceSectionProps) {
   return (
     <section className={`experience ${sectionPadding}`} id="experience">
       <SectionHeading
-        title="Experience"
-        description="Professional Experience."
+        title={content.title}
+        description={content.description}
       />
 
       <div className="mx-4 grid max-w-7xl gap-6 md:grid-cols-3 lg:mx-auto">
-        {experienceItems.map((item) => (
+        {content.items.map((item) => (
           <div
             key={item.role}
             className="experience__card glass rounded-2xl p-6"

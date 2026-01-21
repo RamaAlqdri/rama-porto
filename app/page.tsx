@@ -3,18 +3,16 @@
 import { useEffect, useState } from "react";
 
 import {
-  awards,
-  contactCards,
-  cvUrl,
-  education,
-  experienceItems,
-  focusAreas,
-  languages,
-  navItems,
-  projectItems,
-  services,
-  stats,
-  techStack
+  aboutContent,
+  contactContent,
+  educationContent,
+  experienceContent,
+  footerContent,
+  heroContent,
+  navigationContent,
+  projectsContent,
+  servicesContent,
+  skillsContent
 } from "../data/portfolio";
 import { AboutSection } from "../components/AboutSection";
 import { BackgroundGlow } from "../components/BackgroundGlow";
@@ -53,7 +51,7 @@ export default function HomePage() {
         document.body.style.setProperty("--parallax-offset", `${scrollY}px`);
       }
 
-      navItems.forEach((item) => {
+      navigationContent.items.forEach((item) => {
         const section = document.getElementById(item.id);
         if (!section) return;
         const sectionTop = section.offsetTop - 50;
@@ -113,7 +111,8 @@ export default function HomePage() {
   return (
     <>
       <Navigation
-        items={navItems}
+        brand={navigationContent.brand}
+        items={navigationContent.items}
         activeSection={activeSection}
         menuOpen={menuOpen}
         onToggleMenu={() => setMenuOpen((open) => !open)}
@@ -124,22 +123,18 @@ export default function HomePage() {
         <BackgroundGlow />
 
         <div className="relative">
-          <Hero cvUrl={cvUrl} />
-          <AboutSection stats={stats} focusAreas={focusAreas} />
-          <SkillsSection techStack={techStack} />
-          <ServicesSection services={services} />
-          <ExperienceSection experienceItems={experienceItems} />
-          <EducationSection
-            education={education}
-            languages={languages}
-            awards={awards}
-          />
-          <ProjectsSection projectItems={projectItems} />
-          <ContactSection contactCards={contactCards} cvUrl={cvUrl} />
+          <Hero content={heroContent} />
+          <AboutSection content={aboutContent} />
+          <SkillsSection content={skillsContent} />
+          <ServicesSection content={servicesContent} />
+          <ExperienceSection content={experienceContent} />
+          <EducationSection content={educationContent} />
+          <ProjectsSection content={projectsContent} />
+          <ContactSection content={contactContent} />
         </div>
       </main>
 
-      <Footer />
+      <Footer content={footerContent} />
     </>
   );
 }

@@ -1,0 +1,23 @@
+{
+  "title": "Education & Languages",
+  "description": "Academic background, awards, and communication skills.",
+  "educationLabel": "Education",
+  "languagesLabel": "Languages",
+  "languagesTagline": "Communication Skills",
+  "awardsLabel": "Awards & Achievements",
+  "gpaLabel": "GPA",
+  "education": {
+    "degree": "Bachelor of Informatics Engineering",
+    "university": "Mataram University",
+    "period": "2019 - 2023",
+    "gpa": "3.75 / 4.00"
+  },
+  "languages": [
+    { "name": "Indonesian", "level": "Native" },
+    { "name": "English", "level": "Professional Working" }
+  ],
+  "awards": [
+    "Best Paper Award - Academic Conference",
+    "Top 5 Innovation Project - University Expo"
+  ]
+}

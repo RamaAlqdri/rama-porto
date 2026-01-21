@@ -1,0 +1,32 @@
+{
+  "title": "Skills",
+  "description": "Skills & Technologies. Modern tech stack for building scalable applications.",
+  "subtitle": "Profesional Skills",
+  "skillBars": [
+    { "label": "TYPESCRIPT", "icon": "bx bxl-typescript", "percentage": 65 },
+    { "label": "JAVA", "icon": "bx bxl-java", "percentage": 75 },
+    { "label": "FLUTTER", "icon": "bx bxl-flutter", "percentage": 15 },
+    { "label": "UI", "icon": "bx bxs-paint", "percentage": 85 }
+  ],
+  "image": {
+    "src": "/image/skill.jpg",
+    "alt": "Technical skills overview"
+  },
+  "techStackTitle": "Technical Arsenal",
+  "techStackDescription": "Modern tools used to ship reliable digital products.",
+  "techStackLabel": "Selected Tools",
+  "techStack": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "NestJS",
+    "Node.js",
+    "PostgreSQL",
+    "Firebase",
+    "Tailwind CSS",
+    "Flutter",
+    "Docker",
+    "Google Maps Platform",
+    "Nginx Deployment"
+  ]
+}

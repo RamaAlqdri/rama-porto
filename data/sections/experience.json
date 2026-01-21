@@ -1,0 +1,36 @@
+{
+  "title": "Experience",
+  "description": "Professional Experience.",
+  "items": [
+    {
+      "role": "Chief Technology Officer",
+      "company": "AgriFlow Labs",
+      "period": "2022 - 2024",
+      "highlights": [
+        "Led technical team in building agritech platform",
+        "Architected full-stack solution for farmers and suppliers",
+        "Managed technology roadmap and infrastructure"
+      ]
+    },
+    {
+      "role": "Flutter Developer",
+      "company": "MobilityLab",
+      "period": "2021 - 2022",
+      "highlights": [
+        "Developed cross-platform mobile application",
+        "Integrated Firebase backend services",
+        "Collaborated on UI flows for booking and payments"
+      ]
+    },
+    {
+      "role": "Fullstack Engineering Intern",
+      "company": "Healthtech Studio",
+      "period": "2020 - 2021",
+      "highlights": [
+        "Built analytics dashboard for healthcare operations",
+        "Implemented secure APIs for patient records",
+        "Improved deployment pipeline with Nginx"
+      ]
+    }
+  ]
+}

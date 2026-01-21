@@ -1,0 +1,69 @@
+{
+  "title": "Contact",
+  "description": "I'm always interested in hearing about new projects and opportunities. Feel free to reach out.",
+  "infoPanel": {
+    "title": "Contact Information",
+    "description": "Let's build something impactful together. Reach out through any channel below.",
+    "badge": "Get in touch"
+  },
+  "cards": [
+    {
+      "label": "Email",
+      "value": "rama.alqdri@example.com",
+      "href": "mailto:rama.alqdri@example.com",
+      "icon": "bx bx-envelope"
+    },
+    {
+      "label": "Phone",
+      "value": "+62 812-3456-7890",
+      "href": "tel:+6281234567890",
+      "icon": "bx bx-phone"
+    },
+    {
+      "label": "Location",
+      "value": "Mataram, Indonesia",
+      "icon": "bx bx-map"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/ramadhani-al-qadri",
+      "href": "https://www.linkedin.com/in/ramadhani-al-qadri-660532154/",
+      "icon": "bx bxl-linkedin"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/RamaAlqdri",
+      "href": "https://github.com/RamaAlqdri",
+      "icon": "bx bxl-github"
+    }
+  ],
+  "cvPanel": {
+    "title": "Need my CV?",
+    "description": "Download the latest resume PDF for detailed experience and project history.",
+    "buttonLabel": "Download CV",
+    "cvUrl": "/cv/ramadhani-al-qadri-cv.pdf"
+  },
+  "availabilityPanel": {
+    "title": "Availability",
+    "description": "Open for freelance and full-time roles, remote or hybrid.",
+    "badge": "24h response",
+    "tags": ["Remote", "Hybrid", "On-site", "Consulting"]
+  },
+  "formPanel": {
+    "title": "Start a Project",
+    "description": "Share a brief about your product, goals, and timeline.",
+    "badge": "Form",
+    "fields": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "email@company.com",
+      "projectLabel": "Project Type",
+      "projectPlaceholder": "Website, mobile app, dashboard",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project goals and timeline."
+    },
+    "footerNote": "Typically reply within 24 hours.",
+    "buttonLabel": "Send Message"
+  }
+}

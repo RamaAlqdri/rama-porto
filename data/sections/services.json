@@ -1,0 +1,37 @@
+{
+  "title": "Services",
+  "description": "Services designed to help teams ship faster and scale smarter.",
+  "cardLabel": "Service",
+  "items": [
+    {
+      "title": "Fullstack Product Development",
+      "description": "End-to-end delivery for web platforms, dashboards, and internal tools.",
+      "icon": "bx bx-code-alt"
+    },
+    {
+      "title": "API & Integrations",
+      "description": "Secure APIs, payment systems, and third-party integrations that scale.",
+      "icon": "bx bx-server"
+    },
+    {
+      "title": "UI/UX & Design Systems",
+      "description": "Component-driven UI with consistent, modern experiences.",
+      "icon": "bx bx-palette"
+    },
+    {
+      "title": "Mobile Applications",
+      "description": "Cross-platform Flutter apps with real-time features.",
+      "icon": "bx bx-mobile-alt"
+    },
+    {
+      "title": "DevOps & Deployment",
+      "description": "CI/CD pipelines, containerization, and VPS deployment.",
+      "icon": "bx bx-cloud-upload"
+    },
+    {
+      "title": "Data & Insights",
+      "description": "Analytics dashboards and reporting for better decisions.",
+      "icon": "bx bx-line-chart"
+    }
+  ]
+}
