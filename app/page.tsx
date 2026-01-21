@@ -33,9 +33,25 @@ export default function HomePage() {
   const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    if (prefersReducedMotion) {
+      document.documentElement.style.setProperty("--parallax-offset", "0px");
+    }
+
     const handleScroll = () => {
       const scrollY = window.pageYOffset;
       let currentSection = "home";
+
+      if (!prefersReducedMotion) {
+        document.documentElement.style.setProperty(
+          "--parallax-offset",
+          `${scrollY}px`
+        );
+        document.body.style.setProperty("--parallax-offset", `${scrollY}px`);
+      }
 
       navItems.forEach((item) => {
         const section = document.getElementById(item.id);
@@ -79,7 +95,7 @@ export default function HomePage() {
       );
       sr.reveal(".home__social-icon", { interval: 200 });
       sr.reveal(
-        ".cta__button, .skills__data, .stats__card, .tech__pill, .focus__chip, .service__card, .project__card, .contact__input, .contact__card, .experience__card, .education__card",
+        ".cta__button, .skills__data, .stats__card, .tech__pill, .focus__chip, .service__card, .project__card, .contact__panel, .contact__input, .contact__card, .experience__card, .education__card",
         { interval: 200 }
       );
 

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --parallax-offset: 0px;
+  }
+
   html {
     scroll-behavior: smooth;
   }
