@@ -79,8 +79,8 @@ export default function HomePage() {
       const sr = ScrollReveal({
         origin: "top",
         distance: "60px",
-        duration: 2000,
-        delay: 200
+        duration: 900,
+        delay: 80
       });
 
       sr.reveal(
