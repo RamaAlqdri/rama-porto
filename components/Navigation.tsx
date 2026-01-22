@@ -30,7 +30,7 @@ export function Navigation({
         </div>
 
         <div
-          className={`nav__menu fixed top-14 left-4 right-4 h-[calc(100vh-3.5rem)] overflow-y-auto rounded-3xl border border-white/10 bg-base/95 p-8 shadow-nav backdrop-blur-2xl transition-transform duration-500 md:static md:h-auto md:translate-x-0 md:border-none md:bg-transparent md:p-0 md:shadow-none md:backdrop-blur-0 md:transition-none ${
+          className={`nav__menu fixed top-14 left-4 right-4 rounded-3xl border border-white/10 bg-base/95 p-6 shadow-nav backdrop-blur-2xl transition-transform duration-500 md:static md:translate-x-0 md:border-none md:bg-transparent md:p-0 md:shadow-none md:backdrop-blur-0 md:transition-none ${
             menuOpen ? "translate-x-0" : "translate-x-[calc(100%+1rem)]"
           }`}
           id="nav-menu"
