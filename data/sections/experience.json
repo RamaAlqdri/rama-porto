@@ -1,35 +1,25 @@
 {
   "title": "Experience",
-  "description": "Professional Experience.",
+  "description": "Professional roles and responsibilities.",
   "items": [
     {
       "role": "Chief Technology Officer",
-      "company": "AgriFlow Labs",
-      "period": "2022 - 2024",
+      "company": "Candrawati Ventures",
+      "period": "Jul 2025 - Present",
       "highlights": [
-        "Led technical team in building agritech platform",
-        "Architected full-stack solution for farmers and suppliers",
-        "Managed technology roadmap and infrastructure"
+        "Led system architecture and technology decisions",
+        "Managed VPS servers, CI/CD pipelines, and deployments",
+        "Built and maintained production applications using Next.js and NestJS"
       ]
     },
     {
-      "role": "Flutter Developer",
-      "company": "MobilityLab",
-      "period": "2021 - 2022",
+      "role": "Frontend & Mobile Developer Intern",
+      "company": "Gridwiz Energy & Mobility",
+      "period": "Dec 2024 - Jun 2025",
       "highlights": [
-        "Developed cross-platform mobile application",
-        "Integrated Firebase backend services",
-        "Collaborated on UI flows for booking and payments"
-      ]
-    },
-    {
-      "role": "Fullstack Engineering Intern",
-      "company": "Healthtech Studio",
-      "period": "2020 - 2021",
-      "highlights": [
-        "Built analytics dashboard for healthcare operations",
-        "Implemented secure APIs for patient records",
-        "Improved deployment pipeline with Nginx"
+        "Developed admin dashboard using Next.js",
+        "Contributed to Flutter mobile application",
+        "Worked on Re:Flow e-bike campus system"
       ]
     }
   ]

@@ -1,37 +1,27 @@
 {
   "title": "Services",
-  "description": "Services designed to help teams ship faster and scale smarter.",
+  "description": "What I can help you build.",
   "cardLabel": "Service",
   "items": [
     {
-      "title": "Fullstack Product Development",
-      "description": "End-to-end delivery for web platforms, dashboards, and internal tools.",
+      "title": "Fullstack Development",
+      "description": "Web applications and dashboards from backend to frontend.",
       "icon": "bx bx-code-alt"
     },
     {
-      "title": "API & Integrations",
-      "description": "Secure APIs, payment systems, and third-party integrations that scale.",
+      "title": "Backend & API Development",
+      "description": "Secure and scalable backend systems.",
       "icon": "bx bx-server"
     },
     {
-      "title": "UI/UX & Design Systems",
-      "description": "Component-driven UI with consistent, modern experiences.",
-      "icon": "bx bx-palette"
-    },
-    {
-      "title": "Mobile Applications",
-      "description": "Cross-platform Flutter apps with real-time features.",
-      "icon": "bx bx-mobile-alt"
-    },
-    {
       "title": "DevOps & Deployment",
-      "description": "CI/CD pipelines, containerization, and VPS deployment.",
+      "description": "CI/CD pipelines, Docker, and VPS deployment.",
       "icon": "bx bx-cloud-upload"
     },
     {
-      "title": "Data & Insights",
-      "description": "Analytics dashboards and reporting for better decisions.",
-      "icon": "bx bx-line-chart"
+      "title": "System Architecture",
+      "description": "Designing maintainable and scalable systems.",
+      "icon": "bx bx-sitemap"
     }
   ]
 }

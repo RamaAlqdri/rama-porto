@@ -1,9 +1,9 @@
 {
-  "badge": "Open for collaborations",
+  "badge": "Open for opportunities",
   "titlePrefix": "Hello, I'm",
   "name": "Ramadhani Al-Qadri",
-  "role": "Fullstack Developer",
-  "description": "Fullstack Developer with experience building digital solutions in healthtech, mobility, agriculture, and education.",
+  "role": "Fullstack & DevOps Engineer",
+  "description": "Software Engineer focused on backend systems, DevOps, and scalable web applications.",
   "primaryCta": {
     "label": "Download CV",
     "icon": "bx bx-download",
@@ -28,7 +28,7 @@
     },
     {
       "label": "LinkedIn",
-      "href": "https://www.linkedin.com/in/ramadhani-al-qadri-660532154/",
+      "href": "https://www.linkedin.com/in/ramalqd",
       "icon": "bx bxl-linkedin"
     }
   ],

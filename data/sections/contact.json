@@ -1,22 +1,22 @@
 {
   "title": "Contact",
-  "description": "I'm always interested in hearing about new projects and opportunities. Feel free to reach out.",
+  "description": "Feel free to reach out for collaboration, freelance work, or full-time opportunities.",
   "infoPanel": {
     "title": "Contact Information",
-    "description": "Let's build something impactful together. Reach out through any channel below.",
-    "badge": ""
+    "description": "Let’s build reliable and scalable systems together.",
+    "badge": "Open to Work"
   },
   "cards": [
     {
       "label": "Email",
-      "value": "rama.alqdri@example.com",
-      "href": "mailto:rama.alqdri@example.com",
+      "value": "ramadhanialqadri12@gmail.com",
+      "href": "mailto:ramadhanialqadri12@gmail.com",
       "icon": "bx bx-envelope"
     },
     {
       "label": "Phone",
-      "value": "+62 812-3456-7890",
-      "href": "tel:+6281234567890",
+      "value": "+62 85238901175",
+      "href": "tel:+6285238901175",
       "icon": "bx bx-phone"
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "label": "LinkedIn",
-      "value": "linkedin.com/in/ramadhani-al-qadri",
-      "href": "https://www.linkedin.com/in/ramadhani-al-qadri-660532154/",
+      "value": "linkedin.com/in/ramalqd",
+      "href": "https://www.linkedin.com/in/ramalqd",
       "icon": "bx bxl-linkedin"
     },
     {
@@ -39,31 +39,31 @@
   ],
   "cvPanel": {
     "title": "Need my CV?",
-    "description": "Download the latest resume PDF for detailed experience and project history.",
+    "description": "Download my latest resume for detailed experience and projects.",
     "buttonLabel": "Download CV",
     "cvUrl": "/cv/ramadhani-al-qadri-cv.pdf"
   },
   "availabilityPanel": {
     "title": "Availability",
-    "description": "Open for freelance and full-time roles, remote or hybrid.",
-    "badge": "24h response",
-    "tags": ["Remote", "Hybrid", "On-site", "Consulting"]
+    "description": "Currently open for new opportunities and collaborations.",
+    "badge": "Fast response",
+    "tags": ["Remote", "Hybrid", "On-site", "Freelance"]
   },
   "formPanel": {
     "title": "Start a Project",
-    "description": "Share a brief about your product, goals, and timeline.",
-    "badge": "",
+    "description": "Share a short brief about your idea or project.",
+    "badge": "Quick form",
     "fields": {
       "nameLabel": "Name",
-      "namePlaceholder": "Your name",
+      "namePlaceholder": "Your full name",
       "emailLabel": "Email",
-      "emailPlaceholder": "email@company.com",
+      "emailPlaceholder": "you@company.com",
       "projectLabel": "Project Type",
-      "projectPlaceholder": "Website, mobile app, dashboard",
+      "projectPlaceholder": "Web app, backend system, DevOps",
       "messageLabel": "Message",
-      "messagePlaceholder": "Tell me about your project goals and timeline."
+      "messagePlaceholder": "Tell me about your goals and timeline."
     },
-    "footerNote": "Typically reply within 24 hours.",
+    "footerNote": "Usually replies within 24 hours.",
     "buttonLabel": "Send Message"
   }
 }

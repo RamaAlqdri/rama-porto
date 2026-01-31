@@ -1,6 +1,6 @@
 {
   "title": "Education & Languages",
-  "description": "Academic background, awards, and communication skills.",
+  "description": "Academic background, achievements, and language proficiency.",
   "educationLabel": "Education",
   "languagesLabel": "Languages",
   "languagesTagline": "Communication Skills",
@@ -8,9 +8,9 @@
   "gpaLabel": "GPA",
   "education": {
     "degree": "Bachelor of Informatics Engineering",
-    "university": "Mataram University",
-    "period": "2019 - 2023",
-    "gpa": "3.75 / 4.00"
+    "university": "University of Mataram",
+    "period": "2021 - 2025",
+    "gpa": "3.86 / 4.00"
   },
   "languages": [
     { "name": "Indonesian", "level": "Native" },
@@ -22,7 +22,7 @@
     }
   ],
   "awards": [
-    "Best Paper Award - Academic Conference",
-    "Top 5 Innovation Project - University Expo"
+    "Finalist – GEMASTIK XVI Software Development",
+    "Bangkit Academy (Distinction) – Cloud Computing"
   ]
 }

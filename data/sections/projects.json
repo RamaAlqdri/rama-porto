@@ -1,49 +1,134 @@
 {
-  "title": "Project",
-  "description": "Featured projects. Real-world applications across healthtech, mobility, agriculture, and mobile platforms.",
+  "title": "Projects",
+  "description": "Complete collection of real-world, academic, and production projects across backend, DevOps, mobile, and web platforms.",
   "viewLabel": "View project",
   "items": [
     {
-      "title": "Clinical Healthtech Platform",
-      "category": "Healthtech",
+      "title": "Nusa Properti",
+      "category": "Property Platform",
+      "period": "2026",
+      "description": "A multi-role property platform with public listings and internal dashboards for customer, marketing, and admin operations.",
+      "image": "/image/work-1.png",
+      "href": "https://nusaproperti.com",
+      "stack": ["Next.js", "NestJS", "PostgreSQL", "Redis", "MinIO", "Docker", "CI/CD", "VPS"],
+      "highlights": [
+        "Multi-role system (customer, marketing, admin)",
+        "Redis caching and MinIO S3-compatible storage",
+        "Production deployment with CI/CD on VPS"
+      ]
+    },
+    {
+      "title": "Wash U Laundry",
+      "category": "Service Platform",
+      "period": "2025",
+      "description": "Laundry delivery management system for handling orders, services, and operational workflows.",
+      "image": "/image/work-2.png",
+      "href": "https://washu.cantures.com",
+      "stack": ["Next.js", "NestJS", "PostgreSQL", "Docker", "GitHub Actions", "CI/CD", "VPS"],
+      "highlights": [
+        "Order lifecycle and service management",
+        "REST API backend services",
+        "Automated deployment pipeline"
+      ]
+    },
+    {
+      "title": "RajaPoin",
+      "category": "Loyalty Platform",
+      "period": "2025",
+      "description": "Digital loyalty and point management platform for customer rewards and transactions.",
+      "image": "/image/work-3.png",
+      "href": "https://rajapoin.id",
+      "stack": ["Next.js", "NestJS", "PostgreSQL", "CI/CD", "VPS"],
+      "highlights": [
+        "Point transaction and redemption system",
+        "Admin and merchant management features",
+        "Secure backend APIs"
+      ]
+    },
+    {
+      "title": "Cantures Platform",
+      "category": "Company Systems",
+      "period": "2026",
+      "description": "Company website and internal systems supporting Candrawati Ventures business operations.",
+      "image": "/image/work-4.png",
+      "href": "https://cantures.com",
+      "stack": ["Next.js", "NestJS", "PostgreSQL", "CI/CD", "VPS"],
+      "highlights": [
+        "Company digital ecosystem",
+        "Internal operational systems",
+        "Production deployment"
+      ]
+    },
+    {
+      "title": "Re:Flow",
+      "category": "Mobility System",
+      "period": "2024",
+      "description": "Campus e-bike fleet management system for Universitas Mataram.",
+      "image": "/image/work-5.png",
+      "href": "/",
+      "stack": ["Next.js", "Flutter", "REST API", "VPS"],
+      "highlights": [
+        "Web-based admin dashboard",
+        "Mobile application for bike usage",
+        "Campus-scale system design"
+      ]
+    },
+    {
+      "title": "Quiztion",
+      "category": "Education Platform",
+      "period": "2024",
+      "description": "Online quiz platform for creating, managing, and taking digital assessments.",
+      "image": "/image/work-6.png",
+      "href": "https://github.com/RamaAlqdri/Quiz-App-Microservice",
+      "stack": ["Next.js", "NestJS", "MongoDB", "Microservices", "GCP"],
+      "highlights": [
+        "Microservices-based backend",
+        "Cloud deployment on Google Cloud",
+        "Scalable assessment system"
+      ]
+    },
+    {
+      "title": "SehatIn",
+      "category": "Health & Fitness App",
+      "period": "2025",
+      "description": "Mobile application for diet and workout management with AI-based recommendations.",
+      "image": "/image/work-7.png",
+      "href": "https://github.com/RamaAlqdri/sehatin-mobile-app",
+      "stack": ["Android (Kotlin)", "Firebase", "AI Integration"],
+      "highlights": [
+        "Personalized recommendations",
+        "Workout and nutrition tracking",
+        "Mobile-first architecture"
+      ]
+    },
+    {
+      "title": "Hunify",
+      "category": "Design Collaboration Platform",
       "period": "2023",
-      "description": "Comprehensive digital health system integrated with BPJS PCare, featuring patient records, drug inventory, and analytics dashboard for clinic operations.",
-      "image": "/image/work-1.jpg",
-      "href": "https://www.figma.com/proto/WN9Vsru5ZnaQCED4cPaUcE/Untitled?node-id=13-187&node-type=frame&t=mKlOuY6yPrOAKi0L-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A187",
-      "stack": ["Next.js", "NestJS", "PostgreSQL", "RBAC", "Analytics"],
+      "description": "Web platform connecting users with architects and interior designers to design custom homes.",
+      "image": "/image/work-8.png",
+      "href": "https://github.com/LaFavela/hunify",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS", "UI/UX Design"],
       "highlights": [
-        "Patient records and e-prescriptions",
-        "Inventory and procurement workflows",
-        "Operational analytics for clinic teams"
+        "User–designer collaboration system",
+        "Modern responsive UI",
+        "GEMASTIK XVI Finalist project"
       ]
     },
     {
-      "title": "E-Bike Rental Platform",
-      "category": "Mobility",
-      "period": "2022",
-      "description": "Next.js frontend with NestJS backend for electric bike rental service, featuring real-time booking, payment integration, and VPS deployment.",
-      "image": "/image/work-2.jpg",
-      "href": "https://www.figma.com/proto/WN9Vsru5ZnaQCED4cPaUcE/Untitled?node-id=115-2&node-type=frame&t=mKlOuY6yPrOAKi0L-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=115%3A2&show-proto-sidebar=1",
-      "stack": ["Next.js", "NestJS", "Payments", "Maps", "Nginx"],
+      "title": "E-Canteen",
+      "category": "Smart Campus System",
+      "period": "2024",
+      "description": "Digital platform to manage university canteen operations and ordering system.",
+      "image": "/image/work-9.png",
+      "href": "https://github.com/RamaAlqdri/next-e-canteen",
+      "stack": ["Next.js", "Firebase", "TypeScript", "Tailwind CSS"],
       "highlights": [
-        "Live availability and booking flow",
-        "Integrated payments and vouchers",
-        "Fleet monitoring dashboard"
-      ]
-    },
-    {
-      "title": "Agritech Marketplace Platform",
-      "category": "Agritech",
-      "period": "2021",
-      "description": "Full-stack platform connecting farmers with suppliers, including marketplace, inventory management, and logistics coordination.",
-      "image": "/image/work-3.jpg",
-      "href": "https://www.figma.com/proto/WN9Vsru5ZnaQCED4cPaUcE/Untitled?node-id=115-35&node-type=frame&t=mKlOuY6yPrOAKi0L-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=115%3A35&show-proto-sidebar=1",
-      "stack": ["React", "Node.js", "PostgreSQL", "Logistics", "Firebase"],
-      "highlights": [
-        "Farmer onboarding and supplier matching",
-        "Order tracking and inventory sync",
-        "Operational insights for agribusiness"
+        "Smart campus initiative project",
+        "Digital ordering system",
+        "Operational efficiency tools"
       ]
     }
+    
   ]
 }

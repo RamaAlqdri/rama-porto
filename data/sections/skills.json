@@ -1,32 +1,31 @@
 {
   "title": "Skills",
-  "description": "Skills & Technologies. Modern tech stack for building scalable applications.",
-  "subtitle": "Profesional Skills",
+  "description": "Technologies and tools used in development and production.",
+  "subtitle": "Professional Skills",
   "skillBars": [
-    { "label": "TYPESCRIPT", "icon": "bx bxl-typescript", "percentage": 65 },
-    { "label": "JAVA", "icon": "bx bxl-java", "percentage": 75 },
-    { "label": "FLUTTER", "icon": "bx bxl-flutter", "percentage": 15 },
-    { "label": "UI", "icon": "bx bxs-paint", "percentage": 85 }
+    { "label": "TypeScript", "icon": "bx bxl-typescript", "percentage": 70 },
+    { "label": "Backend Development", "icon": "bx bx-server", "percentage": 75 },
+    { "label": "DevOps", "icon": "bx bx-cloud", "percentage": 65 },
+    { "label": "UI Development", "icon": "bx bxs-paint", "percentage": 70 }
   ],
   "image": {
     "src": "/image/skill.jpg",
-    "alt": "Technical skills overview"
+    "alt": "Skills overview"
   },
   "techStackTitle": "Technical Arsenal",
-  "techStackDescription": "Modern tools used to ship reliable digital products.",
-  "techStackLabel": "Selected Tools",
+  "techStackDescription": "Modern stack used for building and deploying applications.",
+  "techStackLabel": "Core Technologies",
   "techStack": [
     "Next.js",
-    "React",
-    "TypeScript",
     "NestJS",
-    "Node.js",
+    "TypeScript",
     "PostgreSQL",
-    "Firebase",
-    "Tailwind CSS",
-    "Flutter",
+    "Redis",
     "Docker",
-    "Google Maps Platform",
-    "Nginx Deployment"
+    "GitHub Actions",
+    "Nginx",
+    "VPS (Linux)",
+    "MinIO",
+    "Flutter"
   ]
 }

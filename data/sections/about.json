@@ -1,20 +1,20 @@
 {
   "title": "About",
   "subtitle": "I'm Rama",
-  "summary": "An Informatics Engineering student at Mataram University. At the age of 21, I have developed a great interest in programming and design, which I continue to develop throughout my academic journey. In addition to writing code, I also have skills in various parallel areas that strengthen my ability to create innovative and effective technology solutions. I am always eager to learn and collaborate, and ready to take on challenges in the tech world.",
+  "summary": "A Software Engineer and Fullstack Developer with a strong focus on backend systems, deployment, and infrastructure. Experienced in building production web applications using Next.js and NestJS, managing VPS servers, and implementing CI/CD pipelines. Currently involved in developing multi-role platforms and scalable systems for real business use cases. Passionate about learning, system reliability, and clean architecture.",
   "image": {
     "src": "/image/about.jpg",
     "alt": "Portrait of Ramadhani Al-Qadri"
   },
   "stats": [
-    { "value": "3+", "label": "Years Experience" },
-    { "value": "12", "label": "Projects Delivered" },
-    { "value": "4", "label": "Awards & Papers" }
+    { "value": "1+", "label": "Years Experience" },
+    { "value": "10+", "label": "Projects Delivered" },
+    { "value": "1", "label": "National Finalist" }
   ],
   "focusAreas": [
-    "Product Strategy",
-    "System Design",
-    "UI/UX Direction",
-    "Data Analytics"
+    "Backend Engineering",
+    "DevOps & CI/CD",
+    "System Architecture",
+    "Product Development"
   ]
 }
